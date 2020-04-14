@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+// https://github.com/MakeSchool/iOS8-Notes
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
     @autoreleasepool {

@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		9748862A244574A7001ED400 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97488629244574A7001ED400 /* AppDelegate.m */; };
 		9748862D244574A7001ED400 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748862C244574A7001ED400 /* SceneDelegate.m */; };
-		97488630244574A7001ED400 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748862F244574A7001ED400 /* ViewController.m */; };
 		97488633244574A7001ED400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97488631244574A7001ED400 /* Main.storyboard */; };
 		97488635244574A8001ED400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97488634244574A8001ED400 /* Assets.xcassets */; };
 		97488638244574A8001ED400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97488636244574A8001ED400 /* LaunchScreen.storyboard */; };
 		9748863B244574A8001ED400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748863A244574A8001ED400 /* main.m */; };
+		97488643244575BB001ED400 /* NotesListTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97488642244575BB001ED400 /* NotesListTableTableViewController.m */; };
+		974886462445B1E4001ED400 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 974886452445B1E4001ED400 /* Note.m */; };
+		974886492445B41B001ED400 /* NotesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 974886482445B41B001ED400 /* NotesDetailViewController.m */; };
+		9748864C2445BA00001ED400 /* NotesEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748864B2445BA00001ED400 /* NotesEditViewController.m */; };
+		9748864F2446522E001ED400 /* NotesAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9748864E2446522E001ED400 /* NotesAddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,21 @@
 		97488629244574A7001ED400 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9748862B244574A7001ED400 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		9748862C244574A7001ED400 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		9748862E244574A7001ED400 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9748862F244574A7001ED400 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97488632244574A7001ED400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97488634244574A8001ED400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97488637244574A8001ED400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97488639244574A8001ED400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9748863A244574A8001ED400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97488641244575BB001ED400 /* NotesListTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesListTableTableViewController.h; sourceTree = "<group>"; };
+		97488642244575BB001ED400 /* NotesListTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesListTableTableViewController.m; sourceTree = "<group>"; };
+		974886442445B1E4001ED400 /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		974886452445B1E4001ED400 /* Note.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		974886472445B41B001ED400 /* NotesDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesDetailViewController.h; sourceTree = "<group>"; };
+		974886482445B41B001ED400 /* NotesDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesDetailViewController.m; sourceTree = "<group>"; };
+		9748864A2445BA00001ED400 /* NotesEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesEditViewController.h; sourceTree = "<group>"; };
+		9748864B2445BA00001ED400 /* NotesEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesEditViewController.m; sourceTree = "<group>"; };
+		9748864D2446522E001ED400 /* NotesAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesAddViewController.h; sourceTree = "<group>"; };
+		9748864E2446522E001ED400 /* NotesAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesAddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +77,21 @@
 				97488629244574A7001ED400 /* AppDelegate.m */,
 				9748862B244574A7001ED400 /* SceneDelegate.h */,
 				9748862C244574A7001ED400 /* SceneDelegate.m */,
-				9748862E244574A7001ED400 /* ViewController.h */,
-				9748862F244574A7001ED400 /* ViewController.m */,
 				97488631244574A7001ED400 /* Main.storyboard */,
+				974886442445B1E4001ED400 /* Note.h */,
+				974886452445B1E4001ED400 /* Note.m */,
+				97488641244575BB001ED400 /* NotesListTableTableViewController.h */,
+				97488642244575BB001ED400 /* NotesListTableTableViewController.m */,
+				9748864D2446522E001ED400 /* NotesAddViewController.h */,
+				9748864E2446522E001ED400 /* NotesAddViewController.m */,
 				97488634244574A8001ED400 /* Assets.xcassets */,
 				97488636244574A8001ED400 /* LaunchScreen.storyboard */,
 				97488639244574A8001ED400 /* Info.plist */,
 				9748863A244574A8001ED400 /* main.m */,
+				974886472445B41B001ED400 /* NotesDetailViewController.h */,
+				974886482445B41B001ED400 /* NotesDetailViewController.m */,
+				9748864A2445BA00001ED400 /* NotesEditViewController.h */,
+				9748864B2445BA00001ED400 /* NotesEditViewController.m */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -146,10 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97488630244574A7001ED400 /* ViewController.m in Sources */,
+				974886462445B1E4001ED400 /* Note.m in Sources */,
 				9748862A244574A7001ED400 /* AppDelegate.m in Sources */,
 				9748863B244574A8001ED400 /* main.m in Sources */,
+				9748864C2445BA00001ED400 /* NotesEditViewController.m in Sources */,
+				9748864F2446522E001ED400 /* NotesAddViewController.m in Sources */,
+				97488643244575BB001ED400 /* NotesListTableTableViewController.m in Sources */,
 				9748862D244574A7001ED400 /* SceneDelegate.m in Sources */,
+				974886492445B41B001ED400 /* NotesDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
